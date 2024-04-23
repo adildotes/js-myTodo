@@ -1,0 +1,32 @@
+.bg-li-list {
+    background: rgba(13, 4, 41, 0.452);
+    text-align: start !important;
+    border-radius: 5px;
+    /* width: 50%; */
+    /* background: linear-gradient(45deg, rgba(19, 0, 76, 0.402) 0%, rgba(0, 19, 101, 0.374rgba(5, 0, 150, 0.26),150,1) 60%); */
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 10px 10px;
+    backdrop-filter: blur(100px);
+}
+
+.todo-content {
+    background: rgb(65, 74, 138);
+    background: linear-gradient(90deg, rgba(65, 74, 138, 0.8801645658263305) 7%, rgba(116, 43, 152, 1) 99%);
+
+
+}
+
+body {
+    background: rgb(65, 74, 138);
+    background: linear-gradient(90deg, rgba(65, 74, 138, 0.8801645658263305) 7%, rgba(116, 43, 152, 1) 99%);
+
+}
+
+
+.delete-icon:hover {
+    color: brown;
+}
+.edit-icon:hover {
+    color: rgb(96, 245, 96);
+}
