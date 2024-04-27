@@ -24,8 +24,14 @@ function removeTask(content) {
     renderTasks();
 }
 
+function deleteAllTasks() {
+    taskList = [];
+    localStorage.removeItem('mytask');
+    renderTasks();
+}
+
 function renderTasks() {
-    let list = document.querySelector("ul");
+    let list = document.getElementById("taskList"); // Selecting the task list by id
     list.innerHTML = '';
     taskList.forEach((task, index) => {
         list.innerHTML += `<li class='bg-li-list d-flex justify-content-between align-items-center'>
@@ -53,4 +59,11 @@ window.onload = function () {
         taskList = JSON.parse(storedTasks);
         renderTasks();
     }
+
+    let taskInp = document.querySelector("input");
+    taskInp.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            addData();
+        }
+    });
 };

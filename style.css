@@ -27,6 +27,25 @@ body {
 .delete-icon:hover {
     color: brown;
 }
+
 .edit-icon:hover {
     color: rgb(96, 245, 96);
-} 
+}
+
+
+.btn-color {
+    background: rgb(65, 74, 138);
+    color: aliceblue;
+
+}
+
+.btn-color:hover {
+    color: aliceblue;
+    background: linear-gradient(90deg, rgba(65, 74, 138, 0.8801645658263305) 7%, rgba(116, 43, 152, 1) 99%);
+
+}
+
+.btn-color:active {
+    color: rgb(234, 27, 27) !important;
+
+}
