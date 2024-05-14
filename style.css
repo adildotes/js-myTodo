@@ -49,3 +49,7 @@ body {
     color: rgb(234, 27, 27) !important;
 
 }
+
+footer {
+    display: none;
+}
